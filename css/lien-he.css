@@ -1,0 +1,82 @@
+.contact-form{
+	height: 400px;
+	width: 860px;
+	margin: 0 0px 0px 2px;
+	padding-top: 50px;
+	background: linear-gradient(to left,white,aliceblue);
+	/background-color: ;
+}
+.contact-form #ten{
+	display: block;
+	margin: auto;
+	padding:10px;
+	width: 300px;
+	border: 1px solid rgba(184,184,184,1.00);
+	box-shadow: 2px 2px 5px black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.contact-form #email{
+	display: block;
+	margin: auto;
+	padding:10px;
+	width: 300px;
+	border: 1px solid rgba(184,184,184,1.00);
+	box-shadow: 2px 2px 5px black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.contact-form #sdt{
+	display: block;
+	margin: auto;
+	padding:10px;
+	width: 300px;
+	border: 1px solid rgba(184,184,184,1.00);
+	box-shadow: 2px 2px 5px black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.contact-form #noi-dung{
+	display: block;
+	margin: auto;
+	padding:10px;
+	width: 300px;
+	height: 80px;
+	border: 1px solid rgba(184,184,184,1.00);
+	box-shadow: 2px 2px 5px black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	
+}
+.contact-sent {
+	color: darkgray;
+	display: block;
+	margin:0 auto;
+	background-color: white;
+	border: 1px solid rgba(195,195,195,1.00);
+	border-radius: 5px;
+	padding:7px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	position: relative;
+	width: 120px;
+	text-align: center;
+	
+}
+.contact-sent:hover{
+	box-shadow: 2px 2px 5px black;
+	color: black;
+}
+.contact-form p{
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 20px ;
+	color: rgba(114,114,114,1.00);
+}
+.ghi-nho-dang-nhap{
+	display: block;
+	color: rgba(132,132,132,1.00);
+	padding-left: 31%;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,25 @@
+.section{
+	display: inline-block;
+	height: auto;
+	width: 874px;
+	margin-top: 10px;
+	margin-left: 20px;
+	background-color: white;
+}
+.section-head{
+	margin: 0;
+	font-size: 22px;
+	border: 1px solid rgba(191,191,191,1.00);
+	margin-left: 2px;
+	padding-top: 8px;
+	width: 858px;
+	padding-bottom: 5px;
+	text-indent: 30px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	border-radius: 8px;
+}
+.section2{
+	padding-left: 200px;
+	margin: 0;
+}

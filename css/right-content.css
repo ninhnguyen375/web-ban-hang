@@ -1,0 +1,44 @@
+.danh-muc-san-pham{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 5px 8px 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	border-radius: 10px;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	
+}
+
+.right-content{
+	float: left;
+	border:1px solid rgba(152,152,152,1.00);
+	width: 180px;
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: white;
+}
+.right-content a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 5px;
+	border-bottom: 2px solid rgba(152,152,152,1.00);
+	border-left: 1px solid rgba(152,152,152,1.00);
+}
+.right-content a:hover{
+	color:white;
+	background: linear-gradient(to left,#003e52,#22C5E8);
+	transition: 0.07s linear;
+	border-radius: 8px;
+}
+#icon-mobile{
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+}

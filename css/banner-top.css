@@ -1,0 +1,52 @@
+.banner-top{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: auto;
+	height: 350px;
+	margin: 0 auto;
+/	height: 380px;
+}
+
+.banner-top td{
+/	border: 2px solid white;
+}
+
+.small-banner {
+/	min-height: 90px;
+/	min-width: 125px;
+/	max-height: 120px;
+/	max-width: 90px;
+	
+}
+.big-banner {
+	width: 60%;
+	min-height: 350px;
+	min-width: 700px;
+	max-height: 350px;
+	max-width: 700px;
+}
+.medium-banner {
+	height: 70%;
+	min-height: 150px;
+	min-width: 350px;
+	max-height: 150px;
+	max-width: 350px;
+	
+}
+.full-size{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+/	background-size:contain;
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+/	border: 2px solid rgba(166,166,166,1.00);
+}
+.icon {
+		height: 100px;
+		width: 100px;
+	-webkit-mask-image: url(baseline-account_box-24px.svg);
+    background-color: black;
+	mask-image: url(baseline-account_box-24px.svg);
+}

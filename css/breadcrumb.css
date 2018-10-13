@@ -1,0 +1,28 @@
+.breadcrumb{
+	padding: 5px;
+	margin:0 40px 0 40px;
+	border-bottom: 2px double rgba(184,184,184,1.00);\
+	box-shadow: 1px 2px 5px black;
+	border-radius: 10px;
+	
+/	display: none;
+	
+}
+.breadcrumb .hien-tai{
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	color:rgba(28,172,161,1.00);
+}
+.breadcrumb .truoc-do{
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	color:rgba(28,172,161,1.00);
+	text-decoration: none;
+	word-spacing: 5px;
+	transition: all 0.3s ease;
+}
+.breadcrumb .truoc-do:hover{
+	text-decoration: underline;
+}

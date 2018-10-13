@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.search{
+	text-align: right;
+	width: 60%;
+	margin-top: 5px;
+}
+.header img{
+	text-align: left;
+}
+.search-button {
+	text-decoration: none;
+	font-size: 15px;
+	background:#FF8923;
+	border-radius: 0 25px 25px 0;
+	padding-bottom: 9px;
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 6px;
+	color: white;
+	margin-left: -5px;
+	margin-right:  20px;
+	display: inline;
+	border: 0;
+}
+.search-box{	
+	text-indent: 15px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	border-radius: 25px 0 0 25px;
+	margin: 0;
+	width: 60%;
+	color:rgba(77,77,77,1.00) ;
+}
+.header{
+	padding: 40px 0 0 0;
+	background: linear-gradient(#003e52,#1895b0);
+	background-color: #EEEEEE;
+	vertical-align: middle;
+	border-radius: 0 0 15px 15px;
+	position: relative;
+}
+.header .search{
+	float: right;
+	padding-top: 25px;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav{
+	background-color:rgba(4,78,99,1.00);
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 2px 2px 10px black;
+}
+.nav .list-left{
+	float: left;
+	margin: 0;
+}
+.nav .list-right{
+	float: right;
+	margin: 0;
+	margin-right: 20px
+}
+.list-left li{
+	margin-right: 10px;
+}
+.list-right li{
+	margin-right: 10px;
+}
+.nav a{
+	color:rgba(211,211,211,1.00);
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nav a:hover{
+	color:white;
+	background-color:#117C95 ;
+	border-radius: 5px;
+	transition: all 0.2s linear;
+}
+.logo {
+	margin-left: 40px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 13px;
+}
+.nav .a-light {
+	color: white;
+}
+.nav .dang-ky {
+	margin-left: 0px;
+}
+.nav .dang-nhap{
+	margin-right: 0;
+}
+
+
+.ten-cua-hang{
+	font-family: 'Satisfy';
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+	margin-top:30px ;
+	text-shadow: 3px 3px 5px black;
+}
