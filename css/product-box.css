@@ -15,7 +15,7 @@
 	/border: 1px solid black;
 	box-shadow: 0px 0px 5px black;
 }
-	
+
 
 #box:hover .ten-sp{
 	color: blue;
@@ -50,7 +50,7 @@
 .icon-cart{
 	height: 16px;
 	width: 16px;
-	color: white; 
+	color: white;
 }
 .them-vao-gio-hang{
 	text-align: right;
@@ -93,14 +93,13 @@
 	transition: all 0.3s ease;
 }
 .chi-tiet{
-//	color:rgba(163,176,255,1.00);
 	float: left;
 	color: white;
 	font-size: 12px;
 	padding-left:   10px;
 	padding-top:  15px;
 }
-#box:hover .chi-tiet{ 
+#box:hover .chi-tiet{
 	color: blue;
 	transition: all 0.3s linear;
 }

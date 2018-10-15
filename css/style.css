@@ -11,6 +11,8 @@ body{
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
+	background: white;
+	min-width: 1120px;
 }
 .clear{
 	clear: both;
@@ -55,11 +57,14 @@ body{
 	border: 1px solid white;
 	transition: 0.3s;
 }
-.ok:hover{ 
+.ok:hover{
 	background: white;
 	color: black;
 }
-.no:hover{ 
+.no:hover{
 	background: white;
 	color: black;
+}
+.clearfix{
+	clear: both;
 }

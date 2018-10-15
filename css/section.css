@@ -1,9 +1,7 @@
 .section{
 	display: inline-block;
 	height: auto;
-	width: 874px;
-	margin-top: 10px;
-	margin-left: 20px;
+	width: auto;
 	background-color: white;
 }
 .section-head{
@@ -19,7 +17,11 @@
 	color: white;
 	border-radius: 8px;
 }
-.section2{
-	padding-left: 200px;
-	margin: 0;
+.khung-chua-san-pham{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	display: inline-block;
+	width: 874px;
+	min-width: 874px;
 }
