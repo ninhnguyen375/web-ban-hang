@@ -46,7 +46,6 @@ body{
 	width: 100%;
 	text-align: center;
 	padding-top: 50px;
-	transition:all 3s ease;
 }
 .thong-bao-dang-nhap .ok,.no{
 	padding: 10px;

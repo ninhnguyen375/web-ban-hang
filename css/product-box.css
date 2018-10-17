@@ -2,28 +2,23 @@
 	width: 210px;
 	height: 329px;
 	margin: 2px;
-	padding: 0;
-	border: 1px solid rgba(224,224,224,1.00);
+	border: 1px solid rgba(224,224,224,1.00); 
 	float: left;
-	transition: all 0.3s ease;
+	transition: 0.3s;
 }
-#box:hover .hinh{
+.box:hover .hinh{
 	position: absolute;
 	top: 5px;
 }
-.product-box:hover{
-	/border: 1px solid black;
-	box-shadow: 0px 0px 5px black;
-}
 
 
-#box:hover .ten-sp{
+.box:hover .ten-sp{
 	color: blue;
 }
 .product-box a{
 	text-decoration: none;
 }
-.product-box .hinh-sp{
+.hinh-sp{
 	height: 230px;
 	width: 210px;
 	position: relative;
@@ -40,7 +35,6 @@
 	padding: 0px 0 0 10px;
 	font-size: 18px;
 	color: red;
-	font-weight: 560;
 }
 .gia-cu{
 	font-size: 12px;
@@ -50,24 +44,10 @@
 .icon-cart{
 	height: 16px;
 	width: 16px;
-	color: white;
 }
 .them-vao-gio-hang{
 	text-align: right;
-	padding: 5px 0 10px 0;
-}
-#them{
-	font-size: 12px;
-	padding: 8px 5px 5px 7px;
-	color:rgba(126,126,126,1.00);
-	border: 1px solid rgba(224,224,224,1.00);
-	border-radius: 10px;
-	margin-right: 5px;
-}
-#them:hover{
-	box-shadow: 2px 2px 5px black;
-	border-radius: 10px;
-	transition: all 0.2s linear;
+	padding-top: 15px;
 }
 .them{
 	font-size: 12px;
@@ -80,7 +60,7 @@
 .them:hover{
 	box-shadow: 2px 2px 5px black;
 	border-radius: 10px;
-	transition: all 0.2s linear;
+	transition: 0.3s;
 }
 .hinh{
 	background-position:center;
@@ -90,16 +70,9 @@
 	top: 20px;
 	height: 210px;
 	width: 210px;
-	transition: all 0.3s ease;
+	transition: 0.3s;
 }
-.chi-tiet{
-	float: left;
-	color: white;
-	font-size: 12px;
-	padding-left:   10px;
-	padding-top:  15px;
-}
-#box:hover .chi-tiet{
+.box:hover .chi-tiet{
 	color: blue;
-	transition: all 0.3s linear;
+	transition:0.3s;
 }
