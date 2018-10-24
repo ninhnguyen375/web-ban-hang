@@ -1,0 +1,175 @@
+.hinh-to{
+	height: 300px;
+	width: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 10px 0 0 20px;;
+	padding: 0;
+}
+.thong-tin-chi-tiet{
+	width: 100%;
+}
+.thong-tin-chi-tiet td{
+	vertical-align: top;
+}
+.thong-tin-chi-tiet .thong-tin{
+	padding: 5px;
+	border-left:  1px solid rgba(168,168,168,1.00);
+	padding-left: 80px;
+}
+.thong-tin-chi-tiet .thong-tin .ten{
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.thong-tin-chi-tiet .thong-tin .gia{
+	font-size: 27px;
+	color: red;
+	letter-spacing: -1px;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.thong-tin-chi-tiet .thong-tin .ttct-button{
+	background-color: white;
+	border: 1px solid rgba(179,179,179,1.00);
+	padding: 10px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	margin-top: -10px;
+	margin:  -left: 10px;
+}
+.thong-tin-chi-tiet .thong-tin .ttct-button:hover{
+	box-shadow: 2px 2px 5px black;
+}
+.thong-tin-chi-tiet .thong-tin .addToCart{
+	width: 130px;
+	font-size: 12px;
+}
+.thong-tin-chi-tiet .thong-tin .mua:hover{
+	background: linear-gradient(to right,#003e52,#1895b0);
+	color: white;
+	border: 1px solid rgba(7,86,108,1.00);
+}
+.thong-tin-chi-tiet .mo-ta-sp .thong-so-ky-thuat .r{
+	text-align: right;
+}
+
+.thong-so-ky-thuat td{
+	padding: 2px;
+	padding: 7px;
+	background-color: white;
+	
+}
+.thong-so-ky-thuat{
+	margin:50px 0  0 10px;
+	background-color:rgba(205,205,205,1.00);
+	border-radius: 10px 10px 0 0;
+	/width: 100%;
+	float: right;
+}
+.thong-so-ky-thuat .title{
+	font-size: 18px;
+	border-radius: 10px 10px 0 0; 
+}
+.noi-dung{
+	width: 450px;
+	padding-top: 30px;
+}
+.noi-dung #p1{
+	font-size: 20px;
+}
+.noi-dung #p2{
+	font-size: 15px;
+}
+.hinh-nho{
+	height: 80px;
+	width: 80px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+	margin: 15px;
+}
+.mo-ta-sp{
+	border-top: 1px solid rgba(196,196,196,1.00);
+	margin-top: 20px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1001; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: -80px auto;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

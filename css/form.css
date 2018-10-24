@@ -1,0 +1,43 @@
+form{
+	padding-bottom: 50px;
+}
+form > *{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+form p,a{
+	text-align: center;
+}
+form .title{
+	font-size: 18px;
+}
+form input{
+	padding: 10px;
+	width: 30%;
+}
+form button{
+	padding: 10px;
+	background: white;
+	color: black;
+	border: 1px solid gray;
+}
+form a{
+	padding: 10px;
+	background: white;
+	color: black;
+	border: 1px solid gray;
+  width: 70px;
+	text-decoration: none;
+}
+form button:hover{
+	box-shadow: 2px 2px 5px black;
+}
+form a:hover{
+	box-shadow: 2px 2px 5px black;
+}
+form textarea{
+  width: 30%;
+	padding: 10px;
+	height:100px;
+}

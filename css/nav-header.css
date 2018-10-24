@@ -7,17 +7,18 @@
 	padding: 10px;
 	border: 0;
 	background: rgb(254, 162, 39);
-	border-radius: 0 5px 5px 0;
+	border-radius: 0 8px 8px 0;
 	text-decoration: none;
 	margin-left: -3px;
 	color: white;
 }
 .search-box{
 	padding: 10px;
-	border: 1px solid white;
-	border-radius: 5px 0 0  5px;
+	border:0;
+	border-radius: 8px 0 0  8px;
 	width: 300px;
 	text-indent: 10px;
+	border-bottom: 1px solid white;
 }
 .header{
 	padding: 40px 0 0 0;
