@@ -1,0 +1,22 @@
+iframe{
+	height: 1424px;
+	width: 874px;
+}
+.khung{
+	width: 874px;
+	height: 100%;
+}
+/* @keyframes example {
+    from {
+			height: 0px;
+			opacity: 0.1;
+				}
+    to {
+			height: 329px;
+			opacity: 1;
+			}
+}
+.product-box{
+	animation-name: example;
+	animation-duration: 0s;
+} */
