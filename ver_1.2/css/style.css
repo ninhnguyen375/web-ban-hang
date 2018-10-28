@@ -1,0 +1,63 @@
+@font-face{
+	font-family:'Roboto';
+	src: url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+@font-face{
+	font-family:'Satisfy';
+	src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+body{
+	font-family: 'Roboto';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background: white;
+	min-width: 1120px;
+}
+.clear{
+	clear: both;
+}
+.fixed-top {
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:1000;
+}
+@media(min-width:1220px){
+	.container{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+#thong-bao-dang-nhap{
+	display: none;
+	background: rgba(0,0,0,0.90);
+	position: fixed;
+	top: 0;
+	z-index: 1003;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+#yes,#no{
+	padding: 10px;
+	width: 100px;
+	background: none;
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	transition: 0.3s;
+}
+#yes:hover{
+	background: white;
+	color: black;
+}
+#no:hover{
+	background: white;
+	color: black;
+}
+.overflow_auto{
+	overflow: auto;
+}

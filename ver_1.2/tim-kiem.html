@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Web bán hàng</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/nav-header.css" rel="stylesheet" type="text/css">
+	<link href="css/banner-top.css" rel="stylesheet" type="text/css">
+	<link href="css/left-content.css" rel="stylesheet" type="text/css">
+	<link href="css/section.css" rel="stylesheet" type="text/css">
+	<link href="css/footer.css" rel="stylesheet" type="text/css">
+	<link href="css/product-box.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/sapxepsp.css" rel="stylesheet" type="text/css">
+	<link href="css/right-content.css" rel="stylesheet" type="text/css">
+	<link href="css/breadcrumb.css" rel="stylesheet" type="text/css">
+	<link href="css/lien-he.css" rel="stylesheet" type="text/css">
+	<link href="css/thong-tin-sp.css" rel="stylesheet" type="text/css">
+	<link href="css/tim-kiem.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+	<div class="">
+
+		<!-- Thanh công cụ -->
+		<div class="nav fixed-top">
+			<ul class="list-left">
+				<li><a href="index.html" class="a-light logo-home">HOME</a></li>
+				<li><a href="gioi-thieu.html">Giới thiệu</a></li>
+				<li><a href="lien-he.html">Liên hệ</a></li>
+			</ul>
+			<ul class="list-right">
+				<li class="dang-nhap"><a href="dang-nhap.html">Đăng nhập</a></li>
+				<span>|</span>
+				<li class="dang-ky"><a href="dang-ky.html">Đăng ký</a></li>
+				<li><a href="gio-hang.html" class="left a-light">GIỎ HÀNG</a></li>
+			</ul>
+		</div>
+		<!-- end Thanh công cụ -->
+
+
+		<!-- Phần header -->
+		<div class="header">
+			<a href="index.html"><img src="image/logo-web1.png" alt="" width="120" height="90" class="logo" />
+			</a>
+			<span class="ten-cua-hang">The Best Shop Ever</span>
+			<div class="search">
+				<form action="tim-kiem.html">
+					<input type="search" class="search-box" placeholder="Bạn cần tìm gì ?">
+					<input type="submit" formmethod="post" class="search-button" value="Search">
+				</form>
+			</div>
+		</div>
+		<!-- end Phần header -->
+
+		<!--Đường dẫn (breadcrumb)-->
+		<div class="breadcrumb">
+			<a class="truoc-do" href="index.html">Home</a>
+			<span class="hien-tai">&raquo;</span>
+			<!--<a class="truoc-do" href="index.html">Điện thoại</a>-->
+			<!-- <span class="hien-tai" >&raquo;</span>-->
+			<span class="hien-tai">Kết quả tìm kiếm</span>
+		</div>
+		<!--End đường đẫn - Breadcrumb-->
+
+
+		<div class="wrap_main overflow_auto">
+			<!-- Thanh menu bên trái -->
+			<div class="menu-ben-trai">
+				<ul>
+					<li class="title">Danh Mục Sản Phẩm</li>
+					<li>
+						<button value="dien_thoai.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/phone_icon.png">Điện thoại
+						</button>
+					</li>
+					<li>
+						<button value="may_tinh_bang.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/images.png">Máy tính bảng
+						</button>
+					</li>
+					<li>
+						<button value="phu_kien.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/icon-headphone.jpg">Phụ Kiện
+						</button>
+					</li>
+					<li>
+						<button value="dien_lanh.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/icon-cool.jpg">Điện lạnh
+						</button>
+					</li>
+					<li>
+						<button value="laptop.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/icon-Laptop.png">Laptop
+						</button>
+					</li>
+					<li>
+						<button value="may_anh.html" onclick="back_to_home(this)">
+							<img id="icon-mobile" src="image/icon-camera.png">Máy ảnh
+						</button>
+					</li>
+				</ul>
+			</div>
+			<!--End Thanh menu bên trái -->
+			<div class="khung-frame">
+				<div class="section">
+					<!--Thanh tiêu đề-->
+					<p class="section-head">KẾT QUẢ TÌM KIẾM<span style="font-size: 15px">(2.000 kết quả được tìm thấy)</span></p>
+					<div class="sap-xep">
+						<span>Sắp xếp theo : </span>
+						<a class="lua-chon-sap-xep" href="#"></a>
+						<a class="lua-chon-sap-xep" href="#"></a>
+						<a class="lua-chon-sap-xep" href="#"></a>
+						<ul>
+
+							<li>
+								<div class="dropdown">
+									<button class="dropbtn">Giá<img class="icon-down" src="image/1x/baseline_keyboard_arrow_down_black_18dp.png"></button>
+									<div class="dropdown-content">
+										<a class="lua-chon-sap-xep-gia" href="#">1.000.000 - 3.000.000</a>
+										<a class="lua-chon-sap-xep-gia" href="#">3.000.000 - 5.000.000</a>
+										<a class="lua-chon-sap-xep-gia" href="#">5.000.000 - 10.000.000</a>
+										<a class="lua-chon-sap-xep-gia" href="#">Trên 10.000.000đ</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<button class="dropbtn">Tên<img class="icon-down" src="image/1x/baseline_keyboard_arrow_down_black_18dp.png"></button>
+
+									<div class="dropdown-content">
+										<a class="lua-chon-sap-xep-ten" href="#">A-Z</a>
+										<a class="lua-chon-sap-xep-ten" href="#">Z-A</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<button class="dropbtn">Phân loại<img class="icon-down" src="image/1x/baseline_keyboard_arrow_down_black_18dp.png"></button>
+
+									<div class="dropdown-content">
+										<a href="#">Link 1</a>
+										<a href="#">Link 2</a>
+										<a href="#">Link 3</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<!--End Thanh tiêu đề-->
+					<div class="clear"></div>
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url(image/aa40731e0387ba64992d81874bc6e718.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Camara Canon</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url(image/xiaomi-redmi-note-6-pro-32gb-blue-600x600.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Xiaomi Redmi note 6</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/acer-aspire-a314-31-c2ux-nxgnssv008-ava-1-400x400.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Laptop Acer</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/cap-micro-1m-esaver-ds118br-tb-avatar-1-600x600.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Iphone XS</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/asus-s510ua-i5-8250u-bq414t-dai-dien-450x300-400x400.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Iphone XS</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/81810e012f7e1568c0dbed6fc3d1e68b.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Iphone XS</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/acer-aspire-a315-51-31x0-i3-6006u-den-0-230x153.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Iphone XS</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+									<!--Hộp 1-->
+									<div class="product-box">
+										<a class="box" href="thong-tin-sp.html">
+											<div class="hinh-sp">
+												<div style="background-image: url( image/hp-15-da0048tu-4me63pa-450-300-400x400.jpg)" class="hinh"></div>
+											</div>
+											<p class="ten-sp">Iphone XS</p>
+											<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+										</a>
+										<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+									</div>
+									<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url(image/aa40731e0387ba64992d81874bc6e718.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Camara Canon</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url(image/xiaomi-redmi-note-6-pro-32gb-blue-600x600.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Xiaomi Redmi note 6</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/acer-aspire-a314-31-c2ux-nxgnssv008-ava-1-400x400.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Laptop Acer</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/cap-micro-1m-esaver-ds118br-tb-avatar-1-600x600.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Iphone XS</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/asus-s510ua-i5-8250u-bq414t-dai-dien-450x300-400x400.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Iphone XS</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/81810e012f7e1568c0dbed6fc3d1e68b.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Iphone XS</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/acer-aspire-a315-51-31x0-i3-6006u-den-0-230x153.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Iphone XS</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+													<!--Hộp 1-->
+													<div class="product-box">
+														<a class="box" href="thong-tin-sp.html">
+															<div class="hinh-sp">
+																<div style="background-image: url( image/hp-15-da0048tu-4me63pa-450-300-400x400.jpg)" class="hinh"></div>
+															</div>
+															<p class="ten-sp">Iphone XS</p>
+															<p class="gia-tien">20.000.000đ<span class="gia-cu">5.000.000đ</span></p>
+														</a>
+														<div class="them-vao-gio-hang"><button style="button" class="them">Add <img class="icon-cart" src="image/icon-cart.png"></button></div>
+													</div>
+													<!--end Hộp 1-->
+
+
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+			<!--Phần chân trang-->
+			<div class="footer">
+			</div>
+			<!--end Phần chân trang-->
+		</div>
+		<!--end class=""-->
+
+		<script>
+			var aaa = document.getElementsByClassName("lua-chon-sap-xep-gia");
+			var bbb = document.getElementsByClassName("lua-chon-sap-xep");
+			var ccc = document.getElementsByClassName("lua-chon-sap-xep-ten");
+
+			var i;
+			aaa[0].onclick = function() {
+				bbb[0].innerHTML = aaa[0].textContent + ' &raquo; ';
+			}
+			aaa[1].onclick = function() {
+				bbb[0].innerHTML = aaa[1].textContent + ' &raquo; ';
+			}
+			aaa[2].onclick = function() {
+				bbb[0].innerHTML = aaa[2].textContent + ' &raquo; ';
+			}
+			aaa[3].onclick = function() {
+				bbb[0].innerHTML = aaa[3].textContent + ' &raquo; ';
+			}
+
+			ccc[0].onclick = function() {
+				bbb[1].innerHTML = ccc[0].textContent + ' &raquo; ';
+			}
+			ccc[1].onclick = function() {
+				bbb[1].innerHTML = ccc[1].textContent + ' &raquo; ';
+			}
+		</script>
+		<script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

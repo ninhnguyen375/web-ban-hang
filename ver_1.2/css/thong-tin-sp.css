@@ -1,0 +1,82 @@
+.hinh-san-pham{
+	float: left;
+}
+.hinh-san-pham > *{
+	margin: 10px;
+}
+.hinh-nho{
+	display: inline;
+}
+.hinh-to img{
+	height: 350px;
+	width: 350px;
+}
+.hinh-nho img{
+	height: 100px;
+	width: 100px;
+}
+
+.thong-tin-san-pham{
+	float: right;
+	margin: 50px;
+}
+.thong-tin-san-pham{
+	margin-top: 20px;
+}
+.thong-tin-san-pham p{
+	font-size: 30px;
+}
+.thong-tin-san-pham span{
+	font-size: 20px;
+}
+.thong-tin-san-pham button{
+	background: white;
+	border: 2px solid gray;
+	padding: 15px 30px 15px 30px;
+	color: #000;
+	font-size: 15px;
+	transition: 0.3s;
+}
+.thong-tin-san-pham button:hover{
+	border: 2px solid #0034DD;
+	color: #0034DD;
+}
+.thong-tin-san-pham button:last-child:hover{
+	color: white;
+	background: red;
+	border: 2px solid red;
+}
+
+
+
+.thong-tin-chi-tiet{
+	float: right;
+}
+.thong-tin-chi-tiet p{
+	width: 290px;
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+.thong-tin-chi-tiet .l{
+	text-align: left;
+}
+.thong-tin-chi-tiet .r{
+	float: right;
+}
+.thong-tin-chi-tiet .title{
+	text-align: center;
+	font-size: 20px;
+	border: none;
+}
+.danh-gia-san-pham{
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	box-sizing: content-box;
+	text-align: justify;
+}
+.ngan_chia{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: rgb(210, 210, 210);
+}

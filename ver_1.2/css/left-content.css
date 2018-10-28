@@ -1,0 +1,43 @@
+#icon-mobile {
+  height: 16px;
+  width: 16px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+.menu-ben-trai ul{
+  padding: 0;
+}
+.menu-ben-trai {
+  float: left;
+}
+.menu-ben-trai li {
+  list-style: none;
+}
+.menu-ben-trai button {
+  height: 36px;
+  width: 194px;
+  display: block;
+  padding: 7px 7px 7px 5px;
+  color: black;
+  border: 0;
+  border-bottom: 1px solid rgb(110, 110, 110);
+  text-align: left;
+  cursor: pointer;
+  background: white;
+  margin-top: 5px;
+}
+
+.menu-ben-trai button:hover {
+  box-shadow: 2px 1px 5px black;
+}
+
+.menu-ben-trai .title {
+	color: white;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  text-align: center;
+	background: linear-gradient(to right,#003e52,#1895b0);
+	border-radius: 7px;
+}

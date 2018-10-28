@@ -1,0 +1,76 @@
+.sap-xep{
+	height: 30px;
+	width: 850px;
+}
+.sap-xep a:visited{
+	color: blue;
+}
+.sap-xep ul,span{
+	display: inline-block;
+	padding-top: 5px;
+	margin-left: 10px;
+	
+}
+.sap-xep ul{
+}
+.sap-xep ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.sap-xep ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.dropbtn {
+	background: none;
+    border: none;
+	padding: 5px;
+	transition: all 0.3s ease;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	background: white;
+	border: 1px solid rgba(220,220,220,1.00);border-radius: 0 0 5px 5px;
+    min-width: 160px;
+    z-index: 1;
+	transition: all 0.3s ease;
+}
+
+.dropdown-content a {
+	background: white;
+    padding: 12px 0px 12px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background: rgba(241,241,241,1.00);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	transition: all 0.3s ease;
+}
+
+.dropdown:hover .dropbtn {
+    
+	background: rgba(245,245,245,1.00);
+	border-radius: 5px 5px 0 0;
+}
+.icon-down{
+	height: 13px;
+	width: 13px;
+	vertical-align:middle;
+	
+}
+.lua-chon-sap-xep{
+	text-decoration: none;
+}

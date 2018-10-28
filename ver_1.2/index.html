@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!-- CSS is here -->
+	<title>W-1</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/nav-header.css" rel="stylesheet" type="text/css">
+	<link href="css/banner-top.css" rel="stylesheet" type="text/css">
+	<link href="css/left-content.css" rel="stylesheet" type="text/css">
+	<link href="css/section.css" rel="stylesheet" type="text/css">
+	<link href="css/footer.css" rel="stylesheet" type="text/css">
+	<link href="css/product-box.css" rel="stylesheet" type="text/css">
+	<link href="css/sapxepsp.css" rel="stylesheet" type="text/css">
+	<link href="css/breadcrumb.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/png" href="logo-web1-1.png" />
+	<link rel="stylesheet" href="css/frame.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+
+	<div class="">
+
+		<!-- Thanh công cụ  -->
+		<div class="nav fixed-top">
+			<ul class="list-left">
+				<li><a href="index.html" class="a-light logo-home">HOME</a></li>
+				<li><a href="gioi-thieu.html">Giới thiệu</a></li>
+				<li><a href="lien-he.html">Liên hệ</a></li>
+			</ul>
+			<ul class="list-right">
+				<li class="dang-nhap"><a href="dang-nhap.html">Đăng nhập</a></li>
+				<span>|</span>
+				<li class="dang-ky"><a href="dang-ky.html">Đăng ký</a></li>
+				<li><a href="gio-hang.html" class="left a-light">GIỎ HÀNG</a></li>
+			</ul>
+		</div>
+		<!-- end Thanh công cụ -->
+		<div class="clear"></div>
+
+		<!-- Phần header -->
+		<div class="header">
+			<a href="index.html">
+				<img src="image/logo-web1.png" alt="" width="120" height="90" class="logo" />
+			</a>
+			<span class="ten-cua-hang">The Best Shop Ever</span>
+			<div class="search">
+				<form action="tim-kiem.html">
+					<input type="search" class="search-box" placeholder="Bạn cần tìm gì ?">
+					<input type="submit" formmethod="post" class="search-button" value="Search">
+				</form>
+			</div>
+		</div>
+		<!-- end Phần header -->
+		<div class="clear"></div>
+
+		<!--Đường dẫn (breadcrumb)-->
+		<div class="breadcrumb">
+			<span class="hien-tai">Home</span>
+		</div>
+		<!--End đường đẫn - Breadcrumb-->
+		<!-- Phần thân trang container -->
+
+			<!-- Banner-top -->
+			<div style="display:absolute;height: 10px;" class="banner"></div>
+			<!-- end banner-top -->
+			<div id="this_top_of_iframe"></div>
+			<div class="wrap_main overflow_auto">
+				<!-- Thanh menu bên trái -->
+				<div class="menu-ben-trai">
+					<ul>
+						<li class="title">Danh Mục Sản Phẩm</li>
+						<li>
+							<button value="dien_thoai.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/phone_icon.png">Điện thoại
+							</button>
+						</li>
+						<li>
+							<button value="may_tinh_bang.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/images.png">Máy tính bảng
+							</button>
+						</li>
+						<li>
+							<button value="phu_kien.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/icon-headphone.jpg">Phụ Kiện
+							</button>
+						</li>
+						<li>
+							<button value="dien_lanh.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/icon-cool.jpg">Điện lạnh
+							</button>
+						</li>
+						<li>
+							<button value="laptop.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/icon-Laptop.png">Laptop
+							</button>
+						</li>
+						<li>
+							<button value="may_anh.html" onclick="change_iframe(this)">
+								<img id="icon-mobile" src="image/icon-camera.png">Máy ảnh
+							</button>
+						</li>
+					</ul>
+				</div>
+				<!--End Thanh menu bên trái -->
+				<div class="khung-frame">
+					<iframe onload="access()" id="iframe_id" scrolling="no" src="index-index.html" frameborder="0">
+					</iframe>
+				</div>
+
+			</div>
+
+
+
+
+
+		<div class="clear"></div>
+		<!--Phần chân trang-->
+		<div class="footer">
+		</div>
+		<!--end Phần chân trang-->
+	</div>
+	<!--end class=""-->
+
+
+
+	<!--thông báo đăng nhập-->
+	<div id="thong-bao-dang-nhap">
+		<h1 style="color: white">Bạn có muốn đăng nhập để tiếp tục mua sắm??</h1>
+		<button type="button" id="yes">Đăng nhập</button>
+		<button type="button" id="no">Không</button>
+	</div>
+	<!--end thông báo đăng nhập-->
+	<script type="text/javascript">
+
+	</script>
+	<script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

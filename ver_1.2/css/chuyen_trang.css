@@ -1,0 +1,22 @@
+.chuyen_trang{
+  height: 40px;
+  text-align: center;
+}
+.so_trang{
+  display: inline-block;
+  padding: 8px 15px 8px 15px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(227, 227, 227);
+}
+.so_trang:hover{
+  background: rgb(231, 231, 231);
+  color: black;
+  transition: 0.3s;
+}
+#block_trang{
+  background-image: linear-gradient(#096077,#1895b0);
+  color: white;
+  pointer-events: none;
+}
